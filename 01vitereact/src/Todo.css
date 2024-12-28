@@ -1,0 +1,101 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    color: white;
+    background-color:blueviolet;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.todo{
+    /* height: 200px;
+    width: 400px; */
+    /* padding: 50px;
+    background-color: black;
+    color: rgb(148, 235, 152);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.todo input {
+    height: 40px;
+    width: 270px; 
+    border-radius: 10px;
+    border: 2px solid black;
+    color: black;
+    font-size: 15px;
+    text-align: center;
+}
+.todo button{
+   height: 40px;
+   width: 100px;
+   background-color: rgb(21, 121, 197);
+   border: none;
+   border-radius: 10px;
+   margin-left: 10px;  
+   color: black;
+   font-size: 15px;
+   font-family: cursive;
+}
+ul li {
+    margin-left: 50px;
+    font-size: 19px;
+    margin-top: 10px;
+
+}
+.deleteBtn{
+    background-color: palevioletred;
+    height: 35px;
+    width: 60px;
+   border: 2px solid plum; 
+   color: black;
+   font-size: 15px;
+   font-family:ui-rounded;
+   margin-left: 10px;
+   margin-top: 4px;
+   padding: 5px;
+   border-radius: 20px;
+   
+
+
+}
+h1{
+    color: black;
+    text-align: center;
+    margin: 4px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    background-color: rgba(240, 239, 240, 0.653);
+}
+.updateAllCases{
+    height: 40px;
+    width: 200px;
+    background-color: paleturquoise ;
+    border: none;
+    border-radius: 10px;
+    margin: 10px ;
+    margin-top: 16px;
+    margin-left: 118px;
+    color: black;
+    font-family: serif;
+    font-size: 20px;
+
+}
+.updateone{
+    height: 30px;
+    width : 80px;
+    background-color:;
+    color: black;
+    border: 2px solid plum;
+    border-radius: 20px;
+    margin-left: 20px;
+    
+
+} */ 
