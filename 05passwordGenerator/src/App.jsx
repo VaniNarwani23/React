@@ -23,7 +23,7 @@ function App() {
 
   return (
     <>
-  <div className="w-full max-w-md mx-auto shadow-md rounded-lg px-4  py-3 my-8 text-red-400 bg-gray-500" >  
+  <div className="w-full max-w-md mx-auto shadow-md rounded-lg px-4   py-3 my-8 text-black-400 bg-gray-500" >  
       <h1 className="text-white text-center mb-2"> Password Generator</h1>
     <div className="flex shadow rounded-lg overflow-hidden mb-4">
       <input type='text' 
@@ -31,14 +31,21 @@ function App() {
         className="outline-none w-full py-1 px-3"
         placeholder="Here is your Password"
         readOnly/>
-        <button className="outline-none bg-pink-600 text-white px-3 py-0.5 shrink-0">Copy</button>
+        <button className="outline-none bg-pink-600 text-black px-3 py-0.5 shrink-0">Copy</button>
     </div>
       <div className="flex test-sm gap-x-2 ">
-        <div classname="flex items-center gap-x-1"> 
+        <div classname="flex items-center gap-x-1 "> 
           <input
           type='range'
+          min={6}
+          max={100}
+          value = {length}
+          classname='cursor pointer'
+          onChange={(e)=> {setLength(e.target.value)}}
 
-          /> </div>
+          /> 
+          <label> Length : {length} </label>
+          </div>
       </div>
 </div>
     
