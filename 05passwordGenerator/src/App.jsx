@@ -46,6 +46,18 @@ function App() {
           /> 
           <label> Length : {length} </label>
           </div>
+          <div className="flex items-center gap-x-1">
+            <input
+            type='checkbox'
+            defaultChecked={numberAllowed}
+            id='numberInput'
+            onChange={()}
+            
+            
+            
+            
+            />
+          </div>
       </div>
 </div>
     
