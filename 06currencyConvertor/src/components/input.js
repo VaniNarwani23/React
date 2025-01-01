@@ -1,2 +1,2 @@
-import InputBox from './inputBox'
-export {InputBox}
+import inputBox from './inputBox'
+export {inputBox}
