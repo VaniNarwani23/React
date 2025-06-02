@@ -1,5 +1,5 @@
-import React from "react"; 
-const Usercontext = React.createContext()
+import React from 'react'
 
-export default Usercontext;
+const UserContext = React.createContext()
 
+export default UserContext;
