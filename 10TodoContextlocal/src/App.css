@@ -40,3 +40,10 @@
 .read-the-docs {
   color: #888;
 }
+body {
+  background-color: #8630e2c4; /* slate-800 hex */
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
